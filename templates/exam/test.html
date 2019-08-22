@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+{% load staticfiles %}
+<html>
+<head>
+<title>Test</title>
+<link rel="stylesheet" href="{%static 'css/teststyle.css' %}">
+</head>
+<body>
+<div class="heading">
+<h1>Hello, Guest</h1>
+</div>
+<div class="questionblock">
+<div class="que">
+<h2>{{QUE}}</h2>
+</div>
+<div class="options">
+<input type="radio" name="answer"><span>{{A}}</span>
+</div>
+<div class="options">
+<input type="radio" name="answer"><span>{{B}}</span>
+</div>
+<div class="options">
+<input type="radio" name="answer"><span>{{C}}</span>
+</div>
+<div class="options">
+<input type="radio" name="answer"><span>{{D}}</span>
+</div>
+<div class="submit">
+<input type="submit" >
+</div>
+</div>
+</body>
+</html>

@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8"
+    <title>About Page</title>
+  </head>
+  <body>
+    {% load app_tags %}
+    {% get_date as today %}
+
+    <h1>Today is{{today|quotes}}</h1>
+  </body>
+</html>
